@@ -1,47 +1,72 @@
 body {
-    margin: 60px auto;
+    background-color: #80d6ff;
+    margin: 50px auto;
     width: 70%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+    padding: 10px;
     list-style: none;
     font-weight: bold;
 }
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
 a {
     text-decoration: none;
     color: #999;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
+
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+    font-size: 10;
 }
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+.box1 {
+    background-color: #0077c2;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
 }
 
-ul.posts li {
-    list-style: none;
+
+.box2 {
+    background-color: #0077c2;
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin: 5px;
 }
 
-.project-description {
-    font-size: 10;
+.header {
+    font-family:'Verdana', 'Arial', 'Sans-Serif';
+    text-align: center;
+    border-radius: 10px;
+    background-color: #42a5f5;
+    padding: 5px;
+}
+
+.text {
+    margin: 25px;
+}
+
+.bar {
+    border-radius: 10px;
+    background-color: #81d40a;
+    padding: 2px;
+    margin: 10px;
 }
