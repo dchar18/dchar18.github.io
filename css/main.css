@@ -41,7 +41,7 @@ footer {
     background-color: #0077c2;
     border-radius: 10px;
     padding: 5px;
-    margin: 10px;
+    margin: 15px;
 }
 
 
@@ -66,7 +66,16 @@ footer {
 
 .bar {
     border-radius: 10px;
-    background-color: #81d40a;
-    padding: 2px;
-    margin: 10px;
+    background-color: #80d6ff;
+    padding: 5px;
+    margin: 5px;
+}
+
+.parallax {
+    background-image: url("maya_1.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
